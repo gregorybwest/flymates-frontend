@@ -3,9 +3,11 @@ html {
 }
 
 Footer {
-  position:absolute;
+  /* change to absolute to stick footer to bottom  */
+  position:relative;
   left:0;
   bottom:0;
   right:0;
   padding: 10px;
+  font-size: small;
 }

@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer>
-      <p>Copyright 2022</p>
+      <p>©Flymates LLC, 2022</p>
     </footer>
   );
 }
