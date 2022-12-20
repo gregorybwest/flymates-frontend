@@ -4,6 +4,7 @@ import { Footer } from "./Footer";
 import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { UsersShow } from "./UsersShow"
+import { Signup } from "./Signup"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/users/:id" element={<UsersShow />}></Route>
+            <Route path="/signup" element={<Signup />}></Route>
           </Routes>
           <Footer />
         </div>
