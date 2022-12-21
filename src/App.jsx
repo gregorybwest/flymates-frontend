@@ -5,6 +5,7 @@ import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { UsersShow } from "./UsersShow"
 import { Signup } from "./Signup"
+import { Login } from "./Login"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/users/:id" element={<UsersShow />}></Route>
             <Route path="/signup" element={<Signup />}></Route>
+            <Route path="/login" element={<Login />}></Route>
           </Routes>
           <Footer />
         </div>
